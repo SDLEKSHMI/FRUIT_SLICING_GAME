@@ -63,7 +63,7 @@ $(function()
          $("#trialsleft").empty();
          for(i = 0; i < trialleft; i++)
          {
-            $("#trialsleft").append('<img src="images/heart.png" class=life>'+"  ");
+            $("#trialsleft").append('<img src="heart.png" class=life>'+"  ");
          }
     }
 
@@ -121,7 +121,7 @@ $(function()
 
     function chooseFruit()
     {
-        $("#fruit1").attr("src","images/"+fruit[Math.round(Math.random()*8)]+".png")
+        $("#fruit1").attr("src"+fruit[Math.round(Math.random()*8)]+".png")
     }
     function stopAction(){
         clearInterval(action);

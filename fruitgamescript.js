@@ -121,7 +121,7 @@ $(function()
 
     function chooseFruit()
     {
-        $("#fruit1").attr("src"+fruit[Math.round(Math.random()*8)]+".png")
+        $("#fruit1").attr("src",fruit[Math.round(Math.random()*8)]+".png")
     }
     function stopAction(){
         clearInterval(action);
